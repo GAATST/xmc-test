@@ -18,6 +18,8 @@
 
 This is the **XM Cloud Front End Application Starter Kits** repository containing multiple Next.js starter applications and SPA examples for Sitecore XM Cloud development.
 
+> **IMPORTANT — Active Project:** This is a starter kit repository containing multiple sample projects. We only use `D:\AI\xmc-test\examples\basic-nextjs`. Ignore all other projects in the `/examples/` folder.
+
 **Repository Structure:**
 - `/examples/` - Contains starter front-end applications (Next.js and SPA)
 - `/authoring/` - Sitecore content items, templates, and deployment configurations  

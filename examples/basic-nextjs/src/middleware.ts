@@ -83,6 +83,6 @@ export const config = {
    */
   matcher: [
     '/',
-    '/((?!api/|\\.well-known/|sitemap|robots|llms|_next/|healthz|sitecore/api/|-/|favicon.ico|sc_logo.svg).*)',
+    '/((?!api/|\\.well-known/|sitemap|robots|llms|_next/|healthz|sitecore/api/|-/|favicon.ico|sc_logo.svg|dam-picker).*)',
   ],
 };
