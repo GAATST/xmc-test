@@ -49,3 +49,7 @@ packages/
 
 # VS Code settings
 .vscode/
+
+# Internal POC docs - never push
+docs/DAM/dam-integration-poc-plan.md
+*.tsbuildinfo
