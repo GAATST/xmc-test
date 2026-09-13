@@ -58,15 +58,6 @@ export const Banner: React.FC<ImageProps> = ({ params, fields }) => {
 
   return (
     <figure className={`component hero-banner ${styles}`.trim()} id={typeof id === "string" ? id : undefined}>
-      <div>
-        This is a test deployment | DAM_PICKER_ENABLED=
-        {process.env.DAM_PICKER_ENABLED ?? "(not set)"} | CLOUDINARY_CLOUD_NAME=
-        {process.env.CLOUDINARY_CLOUD_NAME ?? "(not set)"} | CLOUDINARY_API_KEY:
-        {process.env.CLOUDINARY_API_KEY ? "set" : "NOT SET"} | CLOUDINARY_API_SECRET:
-        {process.env.CLOUDINARY_API_SECRET ? "set" : "NOT SET"} | DAM_PICKER_ACCESS_KEY:
-        {process.env.DAM_PICKER_ACCESS_KEY ? "set" : "NOT SET"} | SITECORE_EDGE_CONTEXT_ID:
-        {process.env.SITECORE_EDGE_CONTEXT_ID ? "set" : "NOT SET"}
-      </div>
       <div className="component-content sc-sxa-image-hero-banner">
         <ContentSdkImage
           field={imageField}
